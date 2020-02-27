@@ -26,8 +26,8 @@ const IndexPage = () => (
           </div>
           <p className="lead mb-5">
             I am a full-stack developer with experience in developing technical processes
-            with an eye towards finding revenue-generating solutions. I have expertise in both
-            vanilla JavaScript and JS libraries such as React, MVC architectures, and API creation
+            with an eye towards finding revenue-generating solutions. I bring expertise in both
+            vanilla JavaScript and JS libraries such as React, MVC architectures, and API development
             and integration.
           </p>
           <div className="social-icons">
