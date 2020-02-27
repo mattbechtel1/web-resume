@@ -192,8 +192,11 @@ const IndexPage = () => (
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <h3 className="mb-0">Flatiron School</h3>
-              <div className="subheading mb-3">Software Engineering Immersive Program</div>
-              <div>Five Applications Developed from Scratch</div>
+              <div className="subheading mb-3">Software Engineering</div>
+              <div>
+                Built five working applications in the immersive program and learned practical software 
+                development concepts.  
+              </div>
             </div>
             <div className="resume-date text-md-right">
               <span className="text-primary">October 2019 - February 2020</span>
@@ -223,7 +226,7 @@ const IndexPage = () => (
         id="portfolio"
       >
         <div className="w-100">
-          <h2 className="mb-5">Portfolio</h2>
+          <h2 className="mb-5">Portfolio Highlights</h2>
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <h3 className="mb-0"><a href='https://succotash-app.herokuapp.com'>Succotash</a></h3>
@@ -282,7 +285,7 @@ const IndexPage = () => (
                 commuters to accurately predict bus and train arrivals, favorite their frequent stations and busstops,
                 and set an alarm for when a bus approaches a stop. The app uses an uncluttered minimalist frontend written
                 in vanilla JavaScript with Bulma components. The rails backend protects API keys and fetches data from WMATA. A simple 
-                sign-up and password protection system allows users' favorites to be persisted to the database for
+                sign-up and password system allows users' favorites to be persisted to the database for
                 future use with the app.
               </p>
             </div>
