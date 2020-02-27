@@ -3,9 +3,10 @@ import React from 'react';
 import Layout from '../components/Layout';
 // import RailsIcon from '../assets/images/rails-icon.png'
 
-import { Link } from 'gatsby';
+// import { Link } from 'gatsby';
 import Sidebar from '../components/Sidebar';
 import config from '../../config';
+
 const IndexPage = () => (
   <Layout>
     <Sidebar />
@@ -26,7 +27,7 @@ const IndexPage = () => (
           <p className="lead mb-5">
             I am a full-stack developer with experience in developing technical processes
             with an eye towards finding revenue-generating solutions. I have expertise in both
-            vanilla Javascript and JS libraries such as React, MVC architectures, and API creation
+            vanilla JavaScript and JS libraries such as React, MVC architectures, and API creation
             and integration.
           </p>
           <div className="social-icons">
@@ -121,7 +122,7 @@ const IndexPage = () => (
               <p>
                 Over a fifteen week period, I immersed myself in software engineering concepts, 
                 modern coding languages, and Agile software concepts. I built 5 working applications 
-                from scratch using Ruby, Rails, and Javascript frameworks.
+                from scratch using Ruby, Rails, and JavaScript frameworks.
               </p>
             </div>
             <div className="resume-date text-md-right">
@@ -158,7 +159,7 @@ const IndexPage = () => (
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">July 2010 - December 2011</span>
+              <span className="text-primary">August 2014 - April 2019</span>
             </div>
           </div>
 
@@ -174,7 +175,7 @@ const IndexPage = () => (
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">September 2008 - June 2010</span>
+              <span className="text-primary">September 2010 - August 2014</span>
             </div>
           </div>
         </div>
@@ -212,7 +213,6 @@ const IndexPage = () => (
           </div>
 
         </div>
-
       </section>
 
 
@@ -280,8 +280,8 @@ const IndexPage = () => (
               <p>
                 Utilizing <a href='https://developer.wmata.com/'>WMATA's public API</a>, Metrobus 2020 allows DC-based
                 commuters to accurately predict bus and train arrivals, favorite their frequent stations and busstops,
-                and set an alarm for when a bus approaches a stop. The app uses an uncluttered minimalist frontend 
-                design with Bulma elements. The rails backend protects API keys and fetches data from WMATA. A simple 
+                and set an alarm for when a bus approaches a stop. The app uses an uncluttered minimalist frontend written
+                in vanilla JavaScript with Bulma components. The rails backend protects API keys and fetches data from WMATA. A simple 
                 sign-up and password protection system allows users' favorites to be persisted to the database for
                 future use with the app.
               </p>
