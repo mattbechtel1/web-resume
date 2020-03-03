@@ -241,6 +241,9 @@ const IndexPage = () => (
               </p>
             </div>
             <div className="resume-date text-md-right">
+              <span className='text-primary' style={{paddingLeft: '10em'}}>
+                <a href='https://succotash-app.herokuapp.com'><i className='fas fa-carrot'> Live App</i></a>
+              </span>
               <span className="text-primary" style={{paddingLeft: '10em'}}>
                   <a href='https://github.com/mattbechtel1/succotash-frontend'><i className='fab fa-github'> Frontend</i></a>
               </span>
@@ -290,6 +293,9 @@ const IndexPage = () => (
               </p>
             </div>
             <div className="resume-date text-md-right">
+              <span className='text-primary' style={{paddingLeft: '10em'}}>
+                <a href='https://dc-metrobus-2020.herokuapp.com'><i className='fas fa-bus'> Live App</i></a>
+              </span>
               <span className="text-primary" style={{paddingLeft: '10em'}}>
                   <a href='https://github.com/mattbechtel1/Metrobus2020'><i className='fab fa-github'> Github</i></a>
               </span>
