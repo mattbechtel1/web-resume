@@ -39,7 +39,7 @@ export class Sidebar extends Component {
             />
           </span>
         </a>
-        <button
+        {/* <button
           className="navbar-toggler"
           type="button"
           data-toggle="collapse"
@@ -47,9 +47,9 @@ export class Sidebar extends Component {
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
+        > */}
+          {/* <span className="navbar-toggler-icon"></span>
+        </button> */}
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <Scrollspy
             items={tabs.map(s => s.href)}
