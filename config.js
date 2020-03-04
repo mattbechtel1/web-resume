@@ -29,11 +29,11 @@ module.exports = {
       name: 'Blog',
       url: 'https://mattbechtel1.github.io/',
     },
-    {
-      icon: 'fa-twitter',
-      name: 'Twitter',
-      url: 'https://twitter.com/mattbechtel1',
-    },
+    // {
+    //   icon: 'fa-twitter',
+    //   name: 'Twitter',
+    //   url: 'https://twitter.com/mattbechtel1',
+    // },
   ],
   email: 'bechma02@gmail.com',
   // phone: '000-00000',
