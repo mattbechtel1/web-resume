@@ -10,20 +10,8 @@ import School from '../components/School'
 import Job from '../components/Job'
 import config from '../../config';
 
-function ping(url) {
-  fetch(url)
-  .catch(e => {
-    console.clear()
-  })
-}
-
 
 const IndexPage = () => {
-  ping('http://succotash-app-api.herokuapp.com/')
-  ping('http://succotash-app.herokuapp.com')
-  ping('http://dc-metrobus-2020.herokuapp.com')
-  ping('http://dc-metrobus-2020-api.herokuapp.com')
-
   return <Layout>
     <Sidebar />
     <div className="container-fluid p-0">
