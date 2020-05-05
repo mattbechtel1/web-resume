@@ -3,7 +3,7 @@ import React from 'react';
 import Layout from '../components/Layout';
 // import RailsIcon from '../assets/images/rails-icon.png'
 
-import { Link } from 'gatsby';
+// import { Link } from 'gatsby';
 import Sidebar from '../components/Sidebar';
 import Project from '../components/Project'
 import School from '../components/School'
@@ -60,6 +60,14 @@ const IndexPage = () => {
           </div>
           <ul className="list-inline dev-icons">
             <li className="list-inline-item">
+              <i className="fas fa-gem hoverable-tooltip">
+                <span className='tooltiptext'>Ruby</span>
+              </i>
+            </li>
+            <li className='list-inline-item'>
+              <i>Rails</i>
+            </li>
+            <li className="list-inline-item">
               <i className="fab fa-html5 hoverable-tooltip">
                 <span className='tooltiptext'>HTML</span>
               </i>
@@ -76,15 +84,13 @@ const IndexPage = () => {
             </li>
             <li className="list-inline-item">
               <i className="fab fa-react hoverable-tooltip">
-                <span className='tooltiptext'>React</span>
+                <span className='tooltiptext'>React, Redux</span>
               </i>
             </li>
             <li className='list-inline-item'>
-              <i>Redux</i>
-            </li>
-            <li className='list-inline-item'>
               <i className='fas fa-database hoverable-tooltip'>
-                <span className='tooltiptext'>PostgreSQL, Redis</span></i>
+                <span className='tooltiptext'>PostgreSQL, Redis</span>
+              </i>
             </li>
             {/* <li className="list-inline-item">
               <i className="fab fa-npm"></i>
@@ -92,20 +98,17 @@ const IndexPage = () => {
             {/* <li className="list-inline-item">
               <i className="fab fa-node-js"></i>
             </li> */}
-            {/* <li className="list-inline-item">
-              <i className="fab fa-aws"></i>
-            </li> */}
             <li className="list-inline-item">
-              <i className="fas fa-gem hoverable-tooltip">
-                <span className='tooltiptext'>Ruby</span>
+              <i className="fab fa-aws hoverable-tooltip">
+                <span className='tooltiptext'>EC2, S3, ElasticBeanstalk</span>
               </i>
             </li>
-            <li className='list-inline-item'>
-              <i>Rails</i>
-            </li>
+            {/* <li className="list-inline-item">
+              <i className="fab fa-linux"></i>
+            </li> */}
           </ul>
 
-          <div className="subheading mb-3">Workflow</div>
+          {/* <div className="subheading mb-3">Workflow</div> */}
           <ul className="fa-ul mb-0">
             <li>
               <i className="fa-li fa fa-check"></i>
@@ -115,13 +118,13 @@ const IndexPage = () => {
               <i className="fa-li fa fa-check"></i>
               API Development &amp; Serialization - Optimizing Database Calls
             </li>
-            {/* <li>
-              <i className="fa-li fa fa-check"></i>
-              Testing with RSpec, Capybara, and Jest
-            </li> */}
             <li>
               <i className="fa-li fa fa-check"></i>
-              Agile Development &amp; Continuous Deployment
+              Testing with RSpec
+            </li>
+            <li>
+              <i className="fa-li fa fa-check"></i>
+              Agile Development &amp; Continuous Development
             </li>
           </ul>
         </div>
