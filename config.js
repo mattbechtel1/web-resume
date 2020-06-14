@@ -40,10 +40,10 @@ module.exports = {
   address: 'Washington, DC 20003',
   jobs: [
     {
-      title: 'Software Engineering Student',
-      company: 'Flatiron School',
-      description: 'Over a fifteen week period, I immersed myself in software engineering concepts, modern coding languages, and Agile software concepts. I built 5 working applications from scratch using Ruby, Rails, and JavaScript frameworks.',
-      dates: 'October 2019 - February 2020'
+      title: 'Software Application Developer',
+      company: 'Global Impact',
+      description: "I develop and extend features and fix bugs on several Ruby on Rails applications used by staff and clients in support of a non-profit organization committed to building partnerships and resources for the world's most vulnerable people.",
+      dates: 'May 2020 - Present'
     }, { 
       title: "Director of Donor Relations", 
       company: 'For Love of Children',
@@ -122,7 +122,7 @@ module.exports = {
     {
       name: 'Flatiron School',
       degree: 'Software Engineering',
-      description: "Built five working applications in the immersive program and learned practical software development concepts.",
+      description: 'Over a fifteen week period, I immersed myself in software engineering concepts, modern coding languages, and Agile software concepts. I built 5 working applications from scratch using Ruby, Rails, and JavaScript frameworks.',
       dates: 'October 2019 - February 2020'
     }, {
       name: 'Gettysburg College',
