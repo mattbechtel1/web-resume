@@ -42,7 +42,7 @@ module.exports = {
     {
       title: 'Software Application Developer',
       company: 'Global Impact',
-      description: "I developed and extended features  on several Ruby on Rails applications used by staff and clients in support of a non-profit organization committed to building partnerships and resources for the world's most vulnerable people. Among my projects was integrating a funds transfer system to distribute grants to people who los their jobs due to the CoVid-19 economic slowdown.",
+      description: "I developed and extended features for several Ruby on Rails applications used by staff and clients in support of a non-profit organization committed to building partnerships and resources for the world's most vulnerable people. Among my major projects was integrating a funds transfer system to distribute grants to people who lost their jobs due to the CoVid-19 economic slowdown. I was also responsible for building out behavioral test suites with Cucumber.",
       dates: 'May 2020 - August 2020'
     }, { 
       title: "Director of Donor Relations", 
