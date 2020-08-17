@@ -42,8 +42,8 @@ module.exports = {
     {
       title: 'Software Application Developer',
       company: 'Global Impact',
-      description: "I develop and extend features and fix bugs on several Ruby on Rails applications used by staff and clients in support of a non-profit organization committed to building partnerships and resources for the world's most vulnerable people.",
-      dates: 'May 2020 - Present'
+      description: "I developed and extended features  on several Ruby on Rails applications used by staff and clients in support of a non-profit organization committed to building partnerships and resources for the world's most vulnerable people. Among my projects was integrating a funds transfer system to distribute grants to people who los their jobs due to the CoVid-19 economic slowdown.",
+      dates: 'May 2020 - August 2020'
     }, { 
       title: "Director of Donor Relations", 
       company: 'For Love of Children',

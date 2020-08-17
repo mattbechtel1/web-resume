@@ -87,6 +87,11 @@ const IndexPage = () => {
                 <span className='tooltiptext'>React, Redux</span>
               </i>
             </li>
+            <li className="list-inline-item">
+              <i className="fab fa-angular hoverable-tooltip">
+                <span className='tooltiptext'>AngularJS 1.x</span>
+              </i>
+            </li>
             <li className='list-inline-item'>
               <i className='fas fa-database hoverable-tooltip'>
                 <span className='tooltiptext'>PostgreSQL, Redis</span>
@@ -103,9 +108,11 @@ const IndexPage = () => {
                 <span className='tooltiptext'>EC2, S3, ElasticBeanstalk</span>
               </i>
             </li>
-            {/* <li className="list-inline-item">
-              <i className="fab fa-linux"></i>
-            </li> */}
+            <li className="list-inline-item">
+              <i className="fab fa-linux hoverable-tooltip">
+                <span className='tooltiptext'>Linux</span>
+              </i>
+            </li>
           </ul>
 
           {/* <div className="subheading mb-3">Workflow</div> */}
@@ -120,7 +127,7 @@ const IndexPage = () => {
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
-              Testing with RSpec
+              Testing with RSpec, Cucumber, and Capybara
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
