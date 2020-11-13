@@ -40,6 +40,11 @@ module.exports = {
   address: 'Washington, DC 20003',
   jobs: [
     {
+      title: 'Production Engineer',
+      company: 'Facebook',
+      description: "",
+      dates: 'August 2020 - Present'
+    }, {
       title: 'Software Application Developer',
       company: 'Global Impact',
       description: "I developed and extended features for several Ruby on Rails applications used by staff and clients in support of a non-profit organization committed to building partnerships and resources for the world's most vulnerable people. Among my major projects was integrating a funds transfer system to distribute grants to people who lost their jobs due to the CoVid-19 economic slowdown. I was also responsible for building out behavioral test suites with Cucumber.",
@@ -49,17 +54,17 @@ module.exports = {
       company: 'For Love of Children',
       description: "I managed all fundraising efforts for a small non-profit organization dedicated to providing out-of-school-time educational services to children in the District of Columbia. I built relationships with staff, donors, and other stakeholders with the goal of increasing funding for the organization's priorities.",
       dates: 'May 2019 - September 2019'
-  }, {
+    }, {
       title: "Development Officer", 
       company: 'Refugees International',
       description: "As Development Officer at Refugees International, an international advocacy and policy organization, I developed a number of fundraising programs, oftentimes incorporating new software and technology, to increase revenue. Among other projects, I developed an end-of-year Presidential ask solicitation program to boost major gifts and launched a webinar program to keep major donors engaged year-round.",
       dates: 'August 2014 - April 2019'
-  }, {
+    }, {
       title: 'Database Administrator',
       company: 'Refugees International',
       description: "As keeper of the database, I managed to keep Refugees International's donor database clean, updated, and functional. During this time, I also managed a major database transition from one software provider to another and ensured that different systems across the company could share the same data.",
       dates: 'September 2010 - August 2014'
-  }],
+    }],
   apps: [
     {
       title: 'Succotash',

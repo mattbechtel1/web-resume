@@ -29,10 +29,11 @@ const IndexPage = () => {
             <a href={`mailto:${config.email}`}>{config.email}</a>
           </div>
           <p className="lead mb-5">
-            I am a full-stack developer with experience in developing technical processes
-            with an eye towards finding revenue-generating solutions. I bring expertise in both
-            vanilla JavaScript and JS libraries such as React, MVC architectures, and API development
-            and integration.
+            I am a full-stack developer with experience in developing technical 
+            processes with an eye towards finding revenue-generating solutions. 
+            I bring expertise in backend systems, API development and 
+            integration with some frontend experience working with modern 
+            JavaScript frameworks.
           </p>
           <div className="social-icons">
             {config.socialLinks.map(social => {
@@ -62,6 +63,11 @@ const IndexPage = () => {
             <li className="list-inline-item">
               <i className="fas fa-gem hoverable-tooltip">
                 <span className='tooltiptext'>Ruby</span>
+              </i>
+            </li>
+            <li className="list-inline-item">
+              <i className="fab fa-python hoverable-tooltip">
+                <span className='tooltiptext'>Python</span>
               </i>
             </li>
             <li className='list-inline-item'>
@@ -94,7 +100,7 @@ const IndexPage = () => {
             </li>
             <li className='list-inline-item'>
               <i className='fas fa-database hoverable-tooltip'>
-                <span className='tooltiptext'>PostgreSQL, Redis</span>
+                <span className='tooltiptext'>MySQL, PostgreSQL, Redis</span>
               </i>
             </li>
             {/* <li className="list-inline-item">
@@ -127,7 +133,7 @@ const IndexPage = () => {
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
-              Testing with RSpec, Cucumber, and Capybara
+              Testing with Python unittest, RSpec, Cucumber, Buck, and Capybara
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
