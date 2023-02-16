@@ -37,12 +37,12 @@ module.exports = {
   ],
   email: 'bechma02@gmail.com',
   // phone: '000-00000',
-  address: 'Washington, DC 20003',
+  address: 'Seattle, WA 98101',
   jobs: [
     {
       title: 'Production Engineer',
-      company: 'Facebook',
-      description: "",
+      company: 'Meta',
+      description: "I design architecture and develop internal features to support capacity and resource management for the world's largest internal private cloud.",
       dates: 'August 2020 - Present'
     }, {
       title: 'Software Application Developer',

@@ -78,11 +78,11 @@ const IndexPage = () => {
                 <span className='tooltiptext'>HTML</span>
               </i>
             </li>
-            <li className='list-inline-item'>
+            {/* <li className='list-inline-item'>
               <i className='fab fa-css3-alt hoverable-tooltip'>
                 <span className='tooltiptext'>Cascading Style Sheets</span>
               </i>
-            </li>
+            </li> */}
             <li className="list-inline-item">
               <i className="fab fa-js-square hoverable-tooltip">
                 <span className='tooltiptext'>ES6+</span>
@@ -93,11 +93,11 @@ const IndexPage = () => {
                 <span className='tooltiptext'>React, Redux</span>
               </i>
             </li>
-            <li className="list-inline-item">
+            {/* <li className="list-inline-item">
               <i className="fab fa-angular hoverable-tooltip">
                 <span className='tooltiptext'>AngularJS 1.x</span>
               </i>
-            </li>
+            </li> */}
             <li className='list-inline-item'>
               <i className='fas fa-database hoverable-tooltip'>
                 <span className='tooltiptext'>MySQL, PostgreSQL, Redis</span>
@@ -133,7 +133,7 @@ const IndexPage = () => {
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
-              Testing with Python unittest, RSpec, Cucumber, Buck, and Capybara
+              Testing with Python unittest, Testslide, RSpec, Cucumber, and Capybara
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
