@@ -70,10 +70,10 @@ module.exports = {
       title: 'Succotash',
       tag: 'Farm Management Software',
       paragraph: "Succotash is a farm management software application built with a Rails/PostgreSQL backend and a React-enabled, Material-UI frontend with state managed in Redux. Farmers and gardeners can manage their crop cycles from planting through harvest. By providing a date to the application, users are able to view and edit the status of their farms and its sub-divisions, which allows the app to serve as both a storage of farm  history and a planner for future crop cycles.",
-      url: 'https://succotash-app.herokuapp.com',
+      url: 'https://succotash-frontend.onrender.com',
       sideLinks: [
         { text: 'Live App',
-          url: 'https://succotash-app.herokuapp.com',
+          url: 'https://succotash-frontend.onrender.com',
           bold: true,
           icon: 'fa-carrot'
         }, {
