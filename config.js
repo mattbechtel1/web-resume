@@ -37,7 +37,7 @@ module.exports = {
   ],
   email: 'bechma02@gmail.com',
   // phone: '000-00000',
-  address: 'Seattle, WA 98101',
+  address: 'Seattle, WA 98121',
   jobs: [
     {
       title: 'Production Engineer',
